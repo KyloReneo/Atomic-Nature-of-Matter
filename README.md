@@ -26,3 +26,33 @@ Classify the pixels as foreground or background. I divided the pixels into foreg
 ### Estimating Avogadro's number:
 First, you have to estimate the ```Boltzmann constant```, which is provided with details on the website of Princeton.
 Avogadro's number `NA` is defined to be the number of particles in a mole. By definition, k = R / NA, where the universal gas constant R is approximately `8.31457 J K**-1 mol-1`. Use `R/k` as an estimate of Avogadro's number.
+
+### How to run:
+After cloning the project and opening the root folder first of all install the requirements:
+```
+pip install -r requirements.txt
+```
+Then change directory to the main folder:
+```
+cd ./Main
+```
+You can run the whole experiment just by one command:
+```
+python avogadro.py
+```
+Also you can run the Blob finder and Bead Tracker separately.
+
+Blob Finder:
+```
+python blob_finder.py 0 180.0 100
+```
+
+Bead Tracker:
+```
+python bead_tracker.py 25 180.0 25.0 ../Datasets/Frames/frame00000.jpg  100
+```
+Results of both scripts will be saved in a txt file named after them.
+
+Attention: The result of code, especially the accuracy of Avogadro Number, may vary according to the volume of your input datas; do not panic:)
+
+
