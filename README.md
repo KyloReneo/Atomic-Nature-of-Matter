@@ -40,6 +40,7 @@ You can run the whole experiment just by one command:
 ```
 python avogadro.py
 ```
+All the requiring inputs are coded as default value and you can easily press ```Enter``` but if you want to change them feel free to run your own experiment, Everything is programmed in such a way that you can easily change your desired values ​​in different steps ;)
 Also you can run the Blob finder and Bead Tracker separately.
 
 Blob Finder:
@@ -53,6 +54,6 @@ python bead_tracker.py 25 180.0 25.0 ../Datasets/Frames/frame00000.jpg  100
 ```
 Results of both scripts will be saved in a txt file named after them.
 
-Attention: The result of code, especially the accuracy of Avogadro Number, may vary according to the volume of your input datas; do not panic:)
+Attention: The result of code, especially the accuracy of Avogadro Number, may vary according to the volume of your input datas; do not panic :)
 
 
