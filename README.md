@@ -40,7 +40,7 @@ You can run the whole experiment just by one command:
 ```
 python avogadro.py
 ```
-All the requiring inputs are coded as default value and you can easily press ```Enter``` but if you want to change them feel free to run your own experiment, Everything is programmed in such a way that you can easily change your desired values ​​in different steps ;)
+All the requiring inputs are coded as default value and you can easily press ```Enter``` but if you want to change them feel free to run your own experiment, Everything is programmed in such a way that you can easily change your desired values ​​in different steps
 Also you can run the Blob finder and Bead Tracker separately.
 
 Blob Finder:
