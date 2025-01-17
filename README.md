@@ -12,6 +12,8 @@ Einstein developed a quantitative theory of Brownian motion in one of his "mirac
 
 ### The problem:
 In this project, I will redo a version of Perrin's experiment. It is really simplified due to the fact that with modern video and computer technology, it is possible to accurately measure and track the motion of an immersed particle undergoing Brownian motion. The data was supplied by ```Princeton University``` and named as video microscopy data of polystyrene spheres ("beads") suspended in water, undergoing Brownian motion. The data is analyzed and determined how much each bead moves between observations. After being fitted to Einstein's model, it will estimate Avogadro's number.
+
+Check the website [here](https://introcs.cs.princeton.edu/java/assignments/atomic.html) so as to download the dataset. 
   
 ### Particle identification:
 Finding the beads in the noisy data is the first difficult task. Each 640 by 480 pixel image requires the conversion of a Color object's value into a luminance value between ```0.0 (black)``` and ```255.0 (white)```. Beads in the foreground are represented by whiter pixels, and water by blacker pixels (background). I divide the issue into three parts: 
